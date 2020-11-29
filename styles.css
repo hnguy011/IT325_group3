@@ -172,9 +172,9 @@ input[type="checkbox"]{
 }
 
 /* Responsive columns */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 780px) {
   .column {
-    width: 80%;
+    width: 40%;
     display: block;
     margin-bottom: 20px;
     margin-left: 50px;
