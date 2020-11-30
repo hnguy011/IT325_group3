@@ -172,19 +172,28 @@ input[type="checkbox"]{
 }
 
 /* Responsive columns */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 790px) {
   .column {
-    width: 40%;
+    width: 45%;
     display: block;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 20px;
+
   }
 }
-
+@media screen and (max-width: 550px) {
+  .column {
+    width: 70%;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-right: 50%;
+  }
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 10px 5px;
-  height: 500px;
+  height: 550px;
   text-align: center;
   background-color: #ccc;
 }
