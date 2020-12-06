@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  
+<head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--Enter your individial CSS file in href -->
+    <link href="styles.css" rel="stylesheet">    
+    <title>Hunter Thomas</title>
+    <style>
+	h1 {text-align: center;}
+	p {text-align: center;}
+	div {text-align: center;}
+    </style>
+</head>
+<body>
+<nav>
+    <div class="logo">
+        The Entrepreneur Industry LLC
+    </div>
+    <input id="click" type="checkbox">
+    <label class="menu-btn" for="click">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a class="active" href="#">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+	<br>
+    <h1> Get In Touch </h1>
+  	<br>
+	<br>
+
+<form action = "form_submission.php" method = "post">
+	<div>
+	<label for= "firstName"> FIRST NAME </label><br>
+	<input type= "text" name= "firstName" required>
+	</div>
+	<br>
+	<div>
+	<label for= "lastName"> LAST NAME </label><br>
+	<input type= "text" name= "lastName" required>
+	</div>
+	<br>
+	<div>
+	<label for= "companyName"> COMPANY </label><br>
+	<input type= "text" name= "companyName" required>
+	</div>
+	<br>
+	<div>
+	<label for= "phoneNumber"> PHONE NUMBER </label><br>
+	<input type= "text" name= "phoneNumber" required>
+	</div>
+	<br>
+	<div>
+	<label for= "emailAddress"> EMAIL ADDRESS </label><br>
+	<input type= "text" name= "emailAddress" required>
+	</div>
+	<br>
+	<div>
+	<label for= "helpMessage"> HOW MAY WE HELP YOU? </label><br>
+	<textarea name= "helpMessage" rows= "10" cols= "30"></textarea>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<input type = "submit" value = "Submit Request">
+	<br><br>
+	<input type = "reset" value = "Clear All">
+	</form>
